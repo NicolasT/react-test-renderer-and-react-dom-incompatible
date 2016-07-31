@@ -1,5 +1,10 @@
 # react-test-renderer-and-react-dom-incompatible
 
+This repository contains a minimal testcase to show `ReactTestRenderer` and
+`react-dom` don't play nice together. Actual scenario: testing of a component
+using `ReactTestRenderer` which depends on a third-party component which
+somewhere in its dependency/import tree imports `react-dom`.
+
 ```
 $ npm test
 
