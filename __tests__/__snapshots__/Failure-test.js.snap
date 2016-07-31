@@ -1,0 +1,5 @@
+exports[`<HelloWorld /> renders correctly 1`] = `
+<div>
+  Hello, world!
+</div>
+`;

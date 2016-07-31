@@ -10,7 +10,8 @@
   "jest": {
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react/",
-      "<rootDir>/node_modules/react-dom/"
+      "<rootDir>/node_modules/react-dom/",
+      "<rootDir>/node_modules/react-test-renderer/"
     ]
   },
   "dependencies": {
@@ -21,6 +22,7 @@
     "babel-jest": "^14.0.2",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
-    "jest-cli": "^14.0.1"
+    "jest-cli": "^14.0.1",
+    "react-test-renderer": "^15.3.0"
   }
 }
